@@ -11,7 +11,6 @@ export default function Routes() {
     <Routing>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-      
     </Routing>
   )
 }
