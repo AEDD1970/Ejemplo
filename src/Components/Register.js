@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import "../Components/styles.css";
-import { TextFieldWhite } from "../styles/styles";
+import { LogoContent, TextFieldWhite } from "../styles/styles";
 import { Button } from "@material-ui/core";
+import logo from '../Assets/images/logopurple.png'
 
 export default function Register() {
   const name = useRef();
@@ -10,6 +11,10 @@ export default function Register() {
   const handleRegisterUser = () => {};
   return (
     <div className={"containerRoot"}>
+        <div className="logoRegister">
+            <img src={logo} alt="" id="login"  />
+        </div>
+            
       <form onSubmit={handleRegisterUser} className="formContainer">
         <TextFieldWhite
           variant="filled"
