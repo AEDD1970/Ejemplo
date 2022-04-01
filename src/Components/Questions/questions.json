@@ -1,0 +1,37 @@
+[
+    {
+        "question": "¿Qué etiqueta es semánticamente correcta para el contenido principal?",
+        "answers": [
+            "main",
+            "section",
+            "header"
+        ],
+        "correct_answer": "main",
+        "character": "../../Assets/images/niñoa1.png",
+        "type": "selection"
+    },
+    {
+        "question": "¿Qué etiqueta HTML nos sirve para incluir archivos de JavaScript?",
+        "answers": [
+            "main",
+            "section",
+            "header"
+        ],
+        "correct_answer": "main",
+        "character": "../../Assets/images/niñoa1.png",
+        "type": "selection"
+
+    },
+    {
+        "question": "¿Qué etiqueta HTML nos sirve para incluir archivos de JavaScript?",
+        "answers": [
+            "<br>",
+            "<script>",
+            "<styles>"
+        ],
+        "correct_answer": "<script>",
+        "character": "../../Assets/images/niñoa2.png",
+        "type": "selection"
+
+    }
+]
